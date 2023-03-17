@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container{
+  margin: 0 auto;
+  width: 70vw; 
+}
+
+.booklist-container{
+  margin: 0 auto;
+  width: 70vw; 
+  display: flex;
+}
+
+#book-form{
+  width: 100%;
+}
+
+.u-full-width{
+  height: 2rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+
+table{
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 95%;
+}
+
+td{
+   text-align: center;
+   margin-top: 0;
+}
+
+.error{
+  display: block;
+  background-color: red;
+  color: beige;
+}
+
+span{
+  cursor: pointer;
+}
